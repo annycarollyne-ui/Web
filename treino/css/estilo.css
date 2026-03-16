@@ -1,0 +1,72 @@
+/*margens e pading */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilo geral */
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(158, 130, 158, 0.5);
+    padding: 20px;
+}
+
+header{
+    text-align:center;
+}
+/*nome(titulo) */
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #464343;
+    margin-bottom: 20px;
+}
+
+
+/*seções*/
+section{
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 1px solid #323232;
+}
+
+/* Aumenta a primeira letra dos p*/
+section p::first-letter{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/*habilidades listas */
+ul{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/*itens ímpares */
+ul li:nth-child(odd){
+    background-color: rgba(168, 130, 182, 0.5);
+}
+
+/*Projetos */
+.projeto{
+    background-color: #f9f9f9;
+    border: 1px solid #bbb;
+    padding: 15px;
+    margin: 10px;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*Efeito hover */
+.projeto:hover{
+    background-color: #e0f7fa;
+}
+
+/*Rodapé */
+footer{
+    margin-top: 30px;
+    padding: 10px;
+    border-top: 2px solid #ccc;
+}
