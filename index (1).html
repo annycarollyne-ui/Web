@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 17/o3</title>
+    <link rel=stylesheet href="css/estlo.css"/>
+	<style>
+	body{
+		background-color: rgba(4, 4, 85, 0.8);
+	}
+
+	.conteiner{
+		display: grid;
+		grid-template-columns: repeat(3, 350px);
+		justify-content:center;
+	}
+
+	.card {
+		border: 1px solid rgba(41, 11, 90, 0.507);
+		display: grid;
+		grid-template-rows: auto auto 1fr auto; 
+		width: 250px;
+		height: 700px; 
+		padding: 20px; 
+		background-color: rgba(59, 181, 181, 0.519);		
+		border-radius: 3px;	
+		transition: background-color 1s ease-out, transform 1s ease-out;		
+	}
+
+	img{
+		margin: 25px auto;
+		height: 200px;
+		width: 200px;
+		border-radius: 8px;
+	}
+
+	h1{
+		color: #fff;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-size: 24px;
+		text-align: center;
+		background-color: rgb(2, 8, 14);
+		padding: 5px;
+		border-radius: 3px;
+	}
+
+	p{
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-size: 18px;
+		color: #fff;
+		text-align: justify;
+	}
+
+	button {
+	  background-color: rgba(68, 26, 104, 0.597);
+	  border: none;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  font-size: 16px;
+	  cursor: pointer;
+	  border-radius: 3px;
+	}
+
+	button:hover{
+		background-color: #2b1271;
+	}
+	
+	.card:hover {
+		transform: scale(.9);
+	}
+
+	</style>
+</head>
+<body>
+    <section class="conteiner">
+		<div class="card">
+			<h1>Tecnologia no br</h1>
+			<img src="img/OIP.webp"/>
+			<p>Teoria geral e/ou estudo sistemático sobre técnicas, processos, métodos, meios e instrumentos de um ou mais ofícios ou domínios da atividade humana (p.ex., indústria, ciência etc.)</p>
+			<button>Saiba mais...</button>
+		</div>
+		<div class="card">
+			<h1>Esportes no br</h1>
+			<img src="img/nadador-cke.webp"/>
+			<p>Esporte é uma atividade física ou mental, competitiva e estruturada, regida por regras institucionais, que visa a melhoria da aptidão física, lazer ou competição. Diferencia-se do jogo pela formalidade e das atividades físicas casuais pelo treinamento e competição organizada.</p>
+			<button>Saiba mais...</button>
+		</div>
+		<div class="card">
+			<h1>Educação no br</h1>
+			<img src="img/OIP (1).webp"/>
+			<p>A educação é um processo contínuo de formação, transmissão de saberes, valores e habilidades, indo além da instrução acadêmica para promover o desenvolvimento integral do indivíduo (intelectual, moral e físico). Ela é uma prática social que prepara as pessoas para a vida em sociedade e permite a transformação da realidade. </p>
+			 <button>Saiba mais...</button>
+		</div>
+    </section>
+</body>
+</html>
